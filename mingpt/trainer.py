@@ -9,7 +9,7 @@ import jax
 import jax.numpy as jnp
 import haiku as hk
 
-from jax.experimental import optimizers
+#from jax.experimental import optimizers
 import optax
 from optax import chain, clip_by_global_norm, scale_by_adam, scale, scale_by_schedule, add_decayed_weights
 from jax import local_device_count
